@@ -1,10 +1,9 @@
-
 #if defined(__NVCC__)
     #include <cuda_runtime.h>
     const char* g_API = "cuda";
 #else
     #if !defined(NDEBUG)
-    #define VUDA_STD_LAYER_ENABLED
+    // #define VUDA_STD_LAYER_ENABLED
     #define VUDA_DEBUG_ENABLED
     #endif
 

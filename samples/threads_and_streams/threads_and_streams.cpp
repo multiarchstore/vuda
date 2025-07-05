@@ -4,7 +4,7 @@
 #include <cuda_runtime.h>
 #else
 #if !defined(NDEBUG)
-#define VUDA_STD_LAYER_ENABLED
+//#define VUDA_STD_LAYER_ENABLED
 #define VUDA_DEBUG_ENABLED
 #endif
 #include <vuda_runtime.hpp>

@@ -9,6 +9,7 @@
 #include <fstream>
 #include <thread>
 #include <mutex>
+#include <memory>
 #include <shared_mutex>
 #include <atomic>
 #include <vector>

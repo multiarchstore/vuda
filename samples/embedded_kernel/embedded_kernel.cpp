@@ -6,7 +6,7 @@
 #define NDEBUG
 #endif
 #ifndef NDEBUG
-#define VUDA_STD_LAYER_ENABLED
+// #define VUDA_STD_LAYER_ENABLED
 #define VUDA_DEBUG_ENABLED
 #endif
 

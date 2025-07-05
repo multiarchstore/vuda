@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS = -std=c++17 -Wall -g0
+CFLAGS = -std=c++17 -Wall -g -O0
 LDFLAGS = -lvulkan -lpthread
 
 NVCC=nvcc
